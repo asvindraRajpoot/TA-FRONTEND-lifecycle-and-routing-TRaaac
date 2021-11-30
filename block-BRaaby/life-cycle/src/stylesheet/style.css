@@ -1,0 +1,58 @@
+body{
+    background-color: aliceblue;
+}
+figure{
+    background-color: black;
+    padding: 1rem;
+
+
+}
+img{
+    width: 30%;
+    border-radius: 50%;
+}
+
+.user{
+    border-radius: .2rem;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    padding: 1rem;
+    box-shadow: .1rem .1rem .8rem ;
+    margin-top: 5rem;
+}
+.btns{
+    display: flex;
+    justify-content: center;
+}
+
+button{
+    padding: 1rem;
+    border: unset;
+    margin: 0 .5rem;
+    background-color: unset;
+}
+i{
+    font-size: 1.3rem;
+    color: rgb(59, 59, 95);
+}
+.random{
+   
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+    
+
+}
+.random button{
+    background-color: navy;
+    color: white;
+    padding: .4rem 1rem;
+    border-radius: .2rem;
+    font-weight: bold;
+}
+
+#active{
+    background-color: rgb(204, 197, 197);
+}
